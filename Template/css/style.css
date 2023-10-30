@@ -4020,7 +4020,7 @@ ul.avatars > li:not(:last-child) { margin-right: -0.25rem; }
 -------------------------------------------------------------------------*/
 a:not([href]):not([tabindex]):not(.btn) { color: none; }
 
-button.btn, .btn:not(.close):not(.mfp-close), a.btn:not([href]):not([tabindex]) { display: inline-block; font-family: inherit; border-radius: 0.42rem 0.42rem 0.42rem 0.42rem; font-size: 12px; font-weight: 600; letter-spacing: .5px; text-decoration: none; outline: none; padding: 12px 18px; position: relative; text-transform: uppercase; background-color: #2250fc; border-color: #2250fc; border-width: 1px; border-style: solid; color: #fff; -webkit-transition: all 0.3s; transition: all 0.3s; margin-bottom: 6px; outline: none; line-height: 14px; cursor: pointer; }
+button.btn, .btn:not(.close):not(.mfp-close), a.btn:not([href]):not([tabindex]) { display: inline-block; font-family: inherit; border-radius: 0.42rem 0.42rem 0.42rem 0.42rem; font-size: 12px; font-weight: 600; letter-spacing: .5px; text-decoration: none; outline: none; padding: 12px 18px; position: relative; text-transform: uppercase; background-color: #DB2613; border-color: #DB2613; border-width: 1px; border-style: solid; color: #fff; -webkit-transition: all 0.3s; transition: all 0.3s; margin-bottom: 6px; outline: none; line-height: 14px; cursor: pointer; }
 
 button.btn:after, .btn:not(.close):not(.mfp-close):after, a.btn:not([href]):not([tabindex]):after { content: ''; position: absolute; z-index: -1; -webkit-transition: all 0.3s; transition: all 0.3s; }
 
@@ -4032,11 +4032,11 @@ button.btn.btn-sm, .btn:not(.close):not(.mfp-close).btn-sm, a.btn:not([href]):no
 
 button.btn.btn-lg, .btn:not(.close):not(.mfp-close).btn-lg, a.btn:not([href]):not([tabindex]).btn-lg { font-size: 16px; letter-spacing: 2px; line-height: 28px; padding: 14px 40px; }
 
-button.btn:hover, button.btn:focus, button.btn:not(:disabled):not(.disabled):active, button.btn:not(:disabled):not(.disabled).active, .btn:not(.close):not(.mfp-close):hover, .btn:not(.close):not(.mfp-close):focus, .btn:not(.close):not(.mfp-close):not(:disabled):not(.disabled):active, .btn:not(.close):not(.mfp-close):not(:disabled):not(.disabled).active, a.btn:not([href]):not([tabindex]):hover, a.btn:not([href]):not([tabindex]):focus, a.btn:not([href]):not([tabindex]):not(:disabled):not(.disabled):active, a.btn:not([href]):not([tabindex]):not(:disabled):not(.disabled).active { background-color: #0333e8; border-color: #0333e8; color: #fff; text-decoration: none; }
+button.btn:hover, button.btn:focus, button.btn:not(:disabled):not(.disabled):active, button.btn:not(:disabled):not(.disabled).active, .btn:not(.close):not(.mfp-close):hover, .btn:not(.close):not(.mfp-close):focus, .btn:not(.close):not(.mfp-close):not(:disabled):not(.disabled):active, .btn:not(.close):not(.mfp-close):not(:disabled):not(.disabled).active, a.btn:not([href]):not([tabindex]):hover, a.btn:not([href]):not([tabindex]):focus, a.btn:not([href]):not([tabindex]):not(:disabled):not(.disabled):active, a.btn:not([href]):not([tabindex]):not(:disabled):not(.disabled).active { background-color: #A71F16; border-color: #A71F16; color: #fff; text-decoration: none; }
 
-button.btn.btn-outline, .btn:not(.close):not(.mfp-close).btn-outline, a.btn:not([href]):not([tabindex]).btn-outline { background-color: transparent; border-width: 2px; border-style: solid; border-color: #2250fc; color: #2250fc; }
+button.btn.btn-outline, .btn:not(.close):not(.mfp-close).btn-outline, a.btn:not([href]):not([tabindex]).btn-outline { background-color: transparent; border-width: 2px; border-style: solid; border-color: #DB2613; color: #DB2613; }
 
-button.btn.btn-outline:hover, button.btn.btn-outline:focus, button.btn.btn-outline:active, button.btn.btn-outline.active, .btn:not(.close):not(.mfp-close).btn-outline:hover, .btn:not(.close):not(.mfp-close).btn-outline:focus, .btn:not(.close):not(.mfp-close).btn-outline:active, .btn:not(.close):not(.mfp-close).btn-outline.active, a.btn:not([href]):not([tabindex]).btn-outline:hover, a.btn:not([href]):not([tabindex]).btn-outline:focus, a.btn:not([href]):not([tabindex]).btn-outline:active, a.btn:not([href]):not([tabindex]).btn-outline.active { background-color: #2250fc; border-width: 2px; border-style: solid; border-color: #2250fc; color: #fff; }
+button.btn.btn-outline:hover, button.btn.btn-outline:focus, button.btn.btn-outline:active, button.btn.btn-outline.active, .btn:not(.close):not(.mfp-close).btn-outline:hover, .btn:not(.close):not(.mfp-close).btn-outline:focus, .btn:not(.close):not(.mfp-close).btn-outline:active, .btn:not(.close):not(.mfp-close).btn-outline.active, a.btn:not([href]):not([tabindex]).btn-outline:hover, a.btn:not([href]):not([tabindex]).btn-outline:focus, a.btn:not([href]):not([tabindex]).btn-outline:active, a.btn:not([href]):not([tabindex]).btn-outline.active { background-color: #DB2613; border-width: 2px; border-style: solid; border-color: #DB2613; color: #fff; }
 
 button.btn.btn-rounded, .btn:not(.close):not(.mfp-close).btn-rounded, a.btn:not([href]):not([tabindex]).btn-rounded { border-radius: 2em !important; }
 
@@ -4364,7 +4364,7 @@ a.btn:not([href]):not([tabindex]).btn-icon-holder.btn-lg i {
 
 .heading-text.heading-section h2 { position: relative; font-size: 48px; line-height: 56px; margin-bottom: 60px; }
 
-.heading-text.heading-section h2:before { content: ""; position: absolute; height: 2px; width: 100px; background-color: #2250fc; bottom: -30px; left: 0; right: 0; }
+.heading-text.heading-section h2:before { content: ""; position: absolute; height: 2px; width: 100px; background-color: #A71F16; bottom: -30px; left: 0; right: 0; }
 
 .heading-text.heading-section.text-center h1:before, .heading-text.heading-section.text-center h2:before, .heading-text.heading-section.text-center h3:before, .heading-text.heading-section.text-center h4:before, .heading-text.heading-section.text-center h5:before, .heading-text.heading-section.text-center h6:before { margin: 0 auto; }
 
